@@ -23,8 +23,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <source>${java.version}</source>
-          <target>${java.version}</target>
+          <source>14</source>
+          <target>14</target>
         </configuration>
       </plugin>
       <plugin>
@@ -67,5 +67,13 @@
           <version>1.20-R0.1-SNAPSHOT</version>
           <scope>provided</scope>
       </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.jetbrains/annotations -->
+      <dependency>
+          <groupId>org.jetbrains</groupId>
+          <artifactId>annotations</artifactId>
+          <version>26.0.1</version>
+      </dependency>
+
   </dependencies>
 </project>
