@@ -15,6 +15,7 @@ public class ConfigPlaceholders {
 		new CustomPlaceholder.StaticPlaceholder(placeholder, constantVal);
 	}
 	
+	
 	// Dynamic global values
 	public static <T> void register(@NotNull String placeholder, @NotNull Supplier<T> supplier, DoubleSupplier raw) {
 		new CustomPlaceholder.DynamicGlobalPlaceholder(placeholder, supplier, raw);
