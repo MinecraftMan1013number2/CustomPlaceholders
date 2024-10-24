@@ -1,0 +1,4 @@
+name: CustomPlaceholders
+version: '${project.version}'
+main: com.minecraftman.customplaceholders.CustomPlaceholders
+api-version: '1.20'
